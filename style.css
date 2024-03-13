@@ -1,0 +1,182 @@
+
+
+/* Customize JavaFX controls */
+.root {
+    -color-primary: #43B047;
+    -color-secondary: #8E8FFA;
+    -color-tertiary: #7752FE;
+    -color-quaternary: #190482;
+}
+
+.button {
+    -fx-font-family: 'Gamtex';
+    -fx-background-color: #FBD000;
+    -fx-text-fill: #E52521;
+    -fx-font-size: 22.0px;
+    -fx-background-radius: 20.0px; /* Rounded button */
+}
+.HBox {
+    -fx-background-color: -color-primary; /* Set the background color */
+    -fx-text-fill: -color-tertiary; /* Set the text color */
+    -fx-padding: 10.0px; /* Add some padding */
+}
+.radio-button {
+    -fx-font-family: 'Gamtex';
+    -fx-text-fill: black;
+    -fx-background-color:  #049CD8;
+    -fx-border-radius: 50.0%; /* Makes the border circular for a radio button appearance */
+    -fx-padding: 5.0px; /* Adjust padding for better appearance */
+}
+
+.button:hover,
+.button:pressed{
+    -fx-background-color: #e8c100;
+}
+
+.label {
+  -fx-font-family: 'Gamtex'; /* Set the font to Roboto */
+  -fx-text-fill: black;
+   -fx-font-size: 25.0px;
+}
+
+.text-field {
+	-fx-font-family: 'Gamtex';
+    -fx-background-color:#FBD000;
+    -fx-text-fill: #E52521;
+    -fx-font-size: 16.0px;
+        -fx-max-width: 140.0;
+        	-fx-font-weight: bold; 
+}
+
+.text-area {
+    -fx-background-color: -color-primary;
+    -fx-text-fill: black;
+}
+
+.combo-box {
+	    -fx-font-family: 'Gamtex';
+    -fx-background-color: #FBD000;
+    -fx-text-fill:  #E52521;
+    -fx-min-width: 120.0;
+    -fx-font-size: 20.0px;
+}
+.combo-box .list-cell {
+	    -fx-text-fill:  #E52521;
+        -fx-background-color: #FBD000;
+    	-fx-font-size: 20.0px; 
+    	-fx-font-weight: bold; 
+}
+
+.check-box {
+    -fx-text-fill: -color-secondary;
+}
+
+.slider {
+    -fx-control-inner-background: -color-primary;
+    -fx-control-inner-background-alt: -color-secondary;
+    -fx-accent: -color-tertiary;
+}
+
+.progress-bar {
+    -fx-accent: -color-quaternary;
+}
+
+.separator {
+    -fx-background-color: -color-secondary;
+}
+
+/* Customize application-specific styles */
+.header {
+    -fx-background-color: -color-primary;
+    -fx-text-fill: white;
+    -fx-font-size: 24.0px;
+}
+
+.footer {
+    -fx-background-color: -color-quaternary;
+    -fx-text-fill: white;
+    -fx-font-size: 16.0px;
+}
+
+
+
+.tree-view {
+    -fx-background-color: -color-primary;
+    -fx-text-fill: black;
+}
+
+.tooltip {
+    -fx-background-color: -color-secondary;
+    -fx-text-fill: white;
+}
+
+.dialog-pane {
+    -fx-background-color: -color-primary;
+    -fx-text-fill: black;
+}
+
+.menu-bar {
+    -fx-background-color: -color-primary;
+    -fx-text-fill: black;
+}
+
+.menu {
+	
+	   -fx-background-color: -color-secondary;
+    -fx-text-fill: black;
+}
+
+.tab-pane {
+    -fx-background-color: #E2EFFF;
+    -fx-text-fill: black;
+}
+
+
+.button.navigation-button {
+    -fx-background-color: -color-tertiary;
+    -fx-text-fill: white;
+    -fx-font-size: 16.0px;
+    -fx-background-radius: 20.0px; /* Rounded button */
+    -fx-transition-duration: 0.2s; /* Transition duration for smooth animation */
+    -fx-transition-property: background-color; /* Apply transition only to background-color property */
+    -fx-min-width: 100.0px; /* Set the fixed width */
+    -fx-min-height: 40.0px; /* Set the fixed height */
+}
+
+.button.navigation-button:hover,
+.button.navigation-button:pressed,
+.button.navigation-button:focused {
+    -fx-background-color: -color-quaternary;
+}
+
+.button.navigation-button:hover {
+    -fx-background-color: -color-quaternary;
+    -fx-cursor: hand; /* Change cursor to hand on hover */
+}
+
+.button.navigation-button:pressed {
+    -fx-background-color: -color-quaternary;
+    -fx-scale-x: 0.95; /* Scale down button on press */
+    -fx-scale-y: 0.95;
+}
+
+.button.navigation-button:focused {
+    -fx-background-color: -color-quaternary;
+    -fx-scale-x: 1.05; /* Scale up button on focus */
+    -fx-scale-y: 1.05;
+}
+
+.table-view .filler {
+    -fx-background-color: transparent;
+}
+
+.chart-legend-item {
+    -fx-text-fill: black; /* Set the text color */
+        -fx-font-weight: normal;
+}
+
+
+.radio-button:selected .radio .dot {
+    -fx-background-color:  #E52521;
+    -fx-background-insets: 0.0;
+}
